@@ -17,11 +17,10 @@
 my_task = ('Make Dinner', 'Tomorrow', 2, False)
 print(my_task)
 
-number = my_task[2]
-print(number)
+print(my_task[2])
 
 print(len(my_task))
 
-trueorfalse = my_task[3]
-print(trueorfalse)
+print(my_task.index(False))
+
 
