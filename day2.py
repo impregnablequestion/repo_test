@@ -1,4 +1,9 @@
-print ("testy testy")
+#GO TO WORK#
+# SET is_it_raining = INPUT "is it raining?"
+# IF is_it_raining is "yes"
+#   THEN PRINT "You should take the car"
 
-result = 53-47
-print(result)
+is_it_raining = input("Is it raining?")
+
+if is_it_raining == "yes":
+    print("You should take the car")
